@@ -135,7 +135,7 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Empowering Embodied Agents with Theory of Mind for Lifelong Collaborative Learning
+        MindForge agents communicate through the in-game chat interface. The "strong" MindForge agent helps the "weak" to collect dirt.
       </h2>
     </div>
   </div>
@@ -160,24 +160,23 @@
             MindForge, a generative-agent framework for
             collaborative lifelong learning through explicit
             perspective taking. We introduce three key in-
-            novations: (1) a structured theory of mind repre-
+            novations: (<b>1</b>) a structured theory of mind repre-
             sentation linking percepts, beliefs, desires, and
-            actions; (2) natural interagent communication;
-            and (3) a multicomponent memory system. In
+            actions; (<b>2</b>) natural interagent communication;
+            and (<b>3</b>) a multicomponent memory system. In
             Minecraft experiments, MindForge agents pow-
             ered by open-weight LLMs significantly outper-
             form their Voyager counterparts in basic tasks
             where traditional Voyager fails without GPT-4,
-            collecting 2.3× more unique items and achieving
-            3× more tech-tree milestones, advancing from
+            collecting <b>2.3</b>× more unique items and achieving
+            <b>3</b>× more tech-tree milestones, advancing from
             basic wood tools to advanced iron equipment.
             MindForge agents demonstrate sophisticated
             behaviors, including expert-novice knowledge
             transfer, collaborative problem solving, and adap-
             tation to out-of-distribution tasks through accu-
             mulated collaborative experiences. MindForge
-            advances the democratization of embodied AI de-
-            velopment through open-ended social learning,
+            advances the democratization of embodied AI development through open-ended social learning,
             enabling peer-to-peer knowledge sharing.
           </p>
         </div>
@@ -187,56 +186,49 @@
 </section>
 <!-- End paper abstract -->
 
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-four-fifths">
-          <img src="static/images/agent.pdf" alt="MindForge"/>
-          <h2 class="subtitle has-text-centered">
-           Cognitive architecture of MindForge agents. Concretely, MindForge extends Voyager by incorporating three key improvements:  (1) **perspective-taking** through a causal ToM template linking agent percepts, beliefs, desires, and actions; (2)  a **natural language communication** interface between agents; and (3) **memory updates**, including **semantic memory** of task and environment related knowledge and **episodic memory** of collaboration episodes.
-          </h2>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section hero is-light">
+<section class="section hero">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Contributions</h2>
-        <p>Contributions:</p>
-        <ul>
-          <li>We propose MindForge, a generative-agent framework that empowers embodied agents with a structured theory of mind representation, natural interagent communication, and a multicomponent memory system for collaborative lifelong learning.</li>
-          <li>We demonstrate that MindForge agents, even when powered by open-weight LLMs, significantly outperform their isolated learning counterparts in Minecraft, collecting  more unique items and achieving more tech-tree milestones.</li>
-          <li>We show that MindForge enables agents to exhibit sophisticated social learning behaviors, including expert-novice knowledge transfer and adaptation to out-of-distribution tasks, advancing embodied AI development through peer-to-peer knowledge sharing.</li>
+        <h2 class="title is-3">Main Contributions</h2>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+          <li style="margin-bottom: 10px;">We propose <b>MindForge</b>, a generative-agent framework that empowers embodied agents with a structured theory of mind representation, natural interagent communication, and a multicomponent memory system for collaborative lifelong learning.</li>
+          <li style="margin-bottom: 10px;">MindForge agents, powered by open-weight LLMs, significantly outperform their Voyager counterparts in Minecraft, <b>collecting more unique items and achieving more tech-tree milestones.</b></li>
+          <li style="margin-bottom: 10px;">We show that MindForge enables agents to exhibit sophisticated social learning behaviors, including <b>expert-novice knowledge transfer</b> and <b></b>adaptation to out-of-distribution tasks</b>, advancing embodied AI development through <b>peer-to-peer knowledge sharing.</b></li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section hero is-light">
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3 has-text-centered">Improving open-weight LLM performance through collaboration</h2>
+        <h2 class="title is-3">Improving open-weight LLM performance through collaboration</h2>
         
         <!-- Text content -->
         <div class="content has-text-justified">
           <p>
-           Across different types of open-weight LLMs, MindForge agents coupled with GPT-4 outperformed their Voyager counterparts, collecting more unique items and achieving more tech-tree milestones.
+            In isolation, open-weight LLMs struggle to perform basic tasks in Minecraft. On the other hand, 
+            MindForge shows substantial improvement across the board both in terms of achieved milestones and efficiency (number of iterations).
           </p>
         </div>
         
         <!-- Image content -->
         <div class="has-text-centered">
-          <img src="static/images/techtree.pdf" alt="Minecraft tech-tree"/>
-          <h2 class="subtitle has-text-centered">
-            MindForge agents complete more Minecraft tech-tree milestones than Voyager. 
-          </h2>
+          <img src="static/images/techtree.png" alt="Minecraft tech-tree" style="max-width: 80%; height: auto;"/>
+          <h4 class="subtitle has-text-centered">
+            Performance comparison in Minecraft between MindForge and Voyager.
+          </h4>
+        </div>
+
+        <div style="margin-top: 20px;"></div>
+        <div class="content has-text-justified">
+          <p>
+            We observe a steady increase in efficiency (number of iterations)  as the size of the LLM increases,
+            suggesting that <b>larger models can better utilize the collaborative learning framework.</b>
+          </p>
         </div>
       </div>
     </div>
